@@ -24,6 +24,18 @@
   
     <main>
         <h2>Welcome to Ivy and Thyme</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ivy and Thyme</title>
+</head>
+<body>
+    <h1>About Ivy and Thyme</h1>
+    <p>Welcome to Ivy and Thyme, where culinary passion meets fresh ingredients. Established in [Year], we focus on delicious meals that highlight seasonal flavors.</p>
+</body>
+</html>
         <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
         <p>Here's how you can add an image:</p>
         <img src="" alt="Image" />
