@@ -11,7 +11,7 @@
   <body>
     <h1>Ivy and Thyme</h1>
 
-    <p>This is a paragraph! Here's how you make a link: <a href="https://www.ubereats.com/?srsltid=AfmBOooFo3uJql000f_-FUCbiihRO53Is_uZH2uK2utr0rWicShsUCjV">Neocities</a>.</p>
+    <p>This is a paragraph! Here's how you make a link: <a href="https://www.ubereats.com/?srsltid=AfmBOooFo3uJql000f_-FUCbiihRO53Is_uZH2uK2utr0rWicShsUCjV">Order Online</a>.</p>
 
     <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
 
