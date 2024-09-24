@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -8,7 +9,8 @@
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>  
-  <body> 
+  <body>
+  <!--
     <h1>Ivy and Thyme</h1>
 
     <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
@@ -16,18 +18,23 @@
     <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
 
     <p>Here's how you can add an image:</p>
-    <img src="https://drive.google.com/file/d/1aH63Q4T1YA6ftdY1URClCqtDDOFOC-TL/view?usp=sharing"</img>
+    <img src=""</img>
 
     <ul>
-      <li>Menu</li>
-      <li>Specials</li>
-      <li>Reservations</li>
-      <li>Locations</li>
-      <li>Contact</li>
+      <li><a href="#About Ivy and Thyme">About Ivy and Thyme</a></li>
+      <li><a href="#Menu">Menu</a></li>
+      <li><a href="#Specials">Specials</a></li>
+      <li><a href="#Reservations">Reservations</a></li>
+      <li><a href="#Locations">Locations</a></li
+      <li><a href="#Contact">Contact</a></li>
     </ul>
+  </nav>
+  
+  <main>
+   <About Ivy and Thyme>
 
     <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
   </body>
+  -->
 </html>
-
    
