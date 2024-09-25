@@ -16,8 +16,8 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-color: #132620ff; /* Dark background */
-            color: #efe9e1ff; /* Light text color */
+            background-color: #c5ac8fff; /* Light background */
+            color: #5e503fff; /* Light text color */
         }
 
         .container {
