@@ -34,10 +34,13 @@
         }
 
         header h1 {
-            float: left;
-            margin: 0;
-            font-family: 'EB Garamond', serif;
-            color: #efe9e1ff; /* Light text color */
+    float: left;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    color: #efe9e1ff; /* Light text color */
+    font-size: 60px; /* Increased font size */
+    font-weight: bold; /* Make it bold */
+
         }
 
         nav {
