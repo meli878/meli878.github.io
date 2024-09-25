@@ -34,12 +34,12 @@
         }
 
         header h1 {
-    float: left;
-    margin: 0;
-    font-family: 'EB Garamond', serif;
-    color: #efe9e1ff; /* Light text color */
-    font-size: 60px; /* Increased font size */
-    font-weight: bold; /* Make it bold */
+            float: left;
+            margin: 0;
+            font-family: 'EB Garamond', serif;
+            color: #efe9e1ff; /* Light text color */
+            font-size: 100px; /* Increased font size */
+            font-weight: bold; /* Make it bold */
 
         }
 
