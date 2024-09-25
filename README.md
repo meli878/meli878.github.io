@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience exquisite dining at Ivy and Thyme, a fine dining restaurant.">
+    <meta name="keywords" content="restaurant, fine dining, Ivy and Thyme, reservations">
     <title>Ivy and Thyme - Fancy Restaurant</title>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito:wght@400;700&family=Oswald:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -83,7 +85,7 @@
         }
 
         p {
-            color: #c5ac8fff; /* Light text color for paragraph */
+            color: #5e503fff; /* Light text color for paragraph */
         }
 
         form {
@@ -173,7 +175,7 @@
                 <input type="email" placeholder="Your Email" required>
                 <input type="date" required>
                 <input type="time" required>
-                <input type="number" placeholder="Number of Guests" required>
+                <input type="number" placeholder="Number of Guests" required min="1">
                 <button type="submit">Reserve Now</button>
             </form>
         </div>
@@ -182,8 +184,8 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Email: info@ivyandthyme.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: <a href="mailto:info@ivyandthyme.com">info@ivyandthyme.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
         </div>
     </section>
 
@@ -202,8 +204,8 @@
         document.getElementById('reservation-form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Thank you for your reservation! We will contact you soon.');
+            this.reset(); // Optional: reset the form after submission
         });
     </script>
 </body>
 </html>
-    
