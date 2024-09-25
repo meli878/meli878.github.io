@@ -16,7 +16,8 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-color: #efe9e1ff;
+            background-color: #132620ff; /* Dark background */
+            color: #efe9e1ff; /* Light text color */
         }
 
         .container {
@@ -27,7 +28,6 @@
 
         header {
             background: #322d29ff;
-            color: #efe9e1ff;
             padding: 20px 0;
         }
 
@@ -35,6 +35,7 @@
             float: left;
             margin: 0;
             font-family: 'EB Garamond', serif;
+            color: #efe9e1ff; /* Light text color */
         }
 
         nav {
@@ -51,20 +52,20 @@
         }
 
         nav ul li a {
-            color: #efe9e1ff;
+            color: #efe9e1ff; /* Light text color */
             text-decoration: none;
         }
 
         #hero {
             background: url('https://source.unsplash.com/1600x900/?restaurant') no-repeat center center/cover;
-            color: #efe9e1ff;
+            color: #efe9e1ff; /* Light text color */
             padding: 100px 0;
             text-align: center;
         }
 
         .btn {
-            background: #d7ad61ff;
-            color: #322d29ff;
+            background: #d7ad61ff; /* Button color */
+            color: #322d29ff; /* Dark text color for button */
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
@@ -77,12 +78,12 @@
 
         h2 {
             margin-bottom: 20px;
-            color: #322d29ff;
+            color: #efe9e1ff; /* Light text color */
             font-family: 'Oswald', sans-serif;
         }
 
         p {
-            color: #5e503fff;
+            color: #c5ac8fff; /* Light text color for paragraph */
         }
 
         form {
@@ -99,26 +100,26 @@
         }
 
         input {
-            border: 1px solid #c5ac8fff;
+            border: 1px solid #5e503fff; /* Border color */
+            color: #322d29ff; /* Dark text color for input */
         }
 
         button {
-            background: #72383dff;
-            color: #efe9e1ff;
+            background: #72383dff; /* Button color */
+            color: #efe9e1ff; /* Light text color for button */
             border: none;
             cursor: pointer;
         }
 
         footer {
             background: #322d29ff;
-            color: #efe9e1ff;
             text-align: center;
             padding: 20px 0;
         }
 
         .socials a {
             margin: 0 10px;
-            color: #efe9e1ff;
+            color: #efe9e1ff; /* Light text color */
         }
     </style>
 </head>
@@ -205,3 +206,4 @@
     </script>
 </body>
 </html>
+    
