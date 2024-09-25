@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivy and Thyme - Fancy Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nunito:wght@400;700&family=Oswald:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         * {
@@ -11,10 +12,11 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Nunito', sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            background-color: #efe9e1ff;
         }
 
         .container {
@@ -24,14 +26,15 @@
         }
 
         header {
-            background: #2c3e50;
-            color: #fff;
+            background: #322d29ff;
+            color: #efe9e1ff;
             padding: 20px 0;
         }
 
         header h1 {
             float: left;
             margin: 0;
+            font-family: 'EB Garamond', serif;
         }
 
         nav {
@@ -48,22 +51,23 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: #efe9e1ff;
             text-decoration: none;
         }
 
         #hero {
             background: url('https://source.unsplash.com/1600x900/?restaurant') no-repeat center center/cover;
-            color: #fff;
+            color: #efe9e1ff;
             padding: 100px 0;
             text-align: center;
         }
 
         .btn {
-            background: #e74c3c;
-            color: #fff;
+            background: #d7ad61ff;
+            color: #322d29ff;
             padding: 10px 20px;
             text-decoration: none;
+            border-radius: 5px;
         }
 
         section {
@@ -73,6 +77,12 @@
 
         h2 {
             margin-bottom: 20px;
+            color: #322d29ff;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        p {
+            color: #5e503fff;
         }
 
         form {
@@ -85,25 +95,30 @@
         input, button {
             padding: 10px;
             width: 100%;
+            border-radius: 5px;
+        }
+
+        input {
+            border: 1px solid #c5ac8fff;
         }
 
         button {
-            background: #2c3e50;
-            color: #fff;
+            background: #72383dff;
+            color: #efe9e1ff;
             border: none;
             cursor: pointer;
         }
 
         footer {
-            background: #2c3e50;
-            color: #fff;
+            background: #322d29ff;
+            color: #efe9e1ff;
             text-align: center;
             padding: 20px 0;
         }
 
         .socials a {
             margin: 0 10px;
-            color: #fff;
+            color: #efe9e1ff;
         }
     </style>
 </head>
@@ -190,4 +205,3 @@
     </script>
 </body>
 </html>
-          
