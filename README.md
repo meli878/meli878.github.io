@@ -18,8 +18,8 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-color: #c5ac8fff; /* Light background */
-            color: #5e503fff; /* Light text color */
+            background-color: #efe9e1ff; /* Updated background color */
+            color: #322d29ff; /* Dark text color for readability */
         }
 
         .container {
@@ -80,12 +80,12 @@
 
         h2 {
             margin-bottom: 20px;
-            color: #efe9e1ff; /* Light text color */
+            color: #322d29ff; /* Dark color for headings */
             font-family: 'Oswald', sans-serif;
         }
 
         p {
-            color: #5e503fff; /* Light text color for paragraph */
+            color: #5e503fff; /* Dark color for paragraph */
         }
 
         form {
